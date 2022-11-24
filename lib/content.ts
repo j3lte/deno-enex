@@ -25,7 +25,7 @@ const mediaNodeToMarkdown = (node: Node) => {
 
 service.addRule("en-media", {
   filter: (node: Node) => {
-    console.log(node.tagName);
+    // console.log(node.tagName);
     return node.tagName === "EN-MEDIA";
   },
   replacement: (_content: string, node: Node) => {

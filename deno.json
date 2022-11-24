@@ -1,6 +1,5 @@
 {
   "tasks": {
-    "cache": "deno cache --lock=deps-lock.json --unstable --lock-write deps.ts",
     "test": "deno test -A --fail-fast --unstable"
   },
   "fmt": {
